@@ -1,0 +1,149 @@
+body {
+    font-family: 'Arial', sans-serif;
+
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+
+.logo {
+    width: 254px;
+    height: 80px;
+
+}
+
+.main-title {
+    color: #6E6259;
+    font-size: 32px;
+    margin-bottom:40px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+}
+
+.main-src {
+    box-sizing: border-box;
+    max-width: 50%;
+    margin-right: 20px;
+    border: 2px solid #6E6259;
+    border-radius: 5px;
+    background: #d1d1d140;
+}
+
+.main-src-text {
+    width: 620px;
+    height: 500px;
+    box-sizing: border-box;
+    margin: 0 30px 30px 30px;
+    outline: none;
+    font-size: 18px;
+    resize: none;
+    overflow: auto;
+    border: 1px solid #6E6259;
+    text-align: justify;
+    padding:15px;
+
+}
+
+.main-trans {
+    box-sizing: border-box;
+    max-width: 50%;
+    margin-right: 20px;
+    border: 2px solid #6E6259;
+    border-radius: 5px;
+    background: #ededed;
+
+}
+.main-trans-text{
+    box-sizing: border-box;
+    width: 650px;
+    height: 500px;
+    margin: 0 30px 30px 30px;
+    outline: none;
+    font-size: 18px;
+    resize: none;
+    overflow: auto;
+    border: 1px solid #b2b6b9;
+    text-align: justify;
+}
+
+.main-src-actions {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-trans-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-src-actions-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.btn {
+    box-sizing: border-box;
+    width: 120px;
+    height: 38px;
+    box-sizing: border-box;
+    padding: 11px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 0;
+    font-size: 16px;
+    background: #6E6259;
+    color: #FFFFFF;
+
+}
+.btn:hover{
+    background: #574f49;
+}
+
+.btn-green {
+    background: #198754;
+}
+
+.btn-green:hover {
+    background: #067542;
+}
+
+.main-rule {
+    margin-top: 60px;
+}
+
+.main-rule-title {
+    box-sizing: border-box;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom:40px;
+}
+.rule-items{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.table{
+    box-sizing: border-box;
+    border-collapse: collapse;
+    width:200px;
+    margin-right: 30px;
+    background:#d1d1d140 ;
+}
+.table tr,td{
+    text-align: center;
+    font-weight: bold;
+    padding:3px;
+    border: 3px solid #6E6259;
+    border-radius: 5px;
+}
