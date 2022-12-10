@@ -25,7 +25,7 @@ body {
 .main-content {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     max-width:100%;
 }
 
@@ -48,7 +48,7 @@ body {
     height: 500px;
     outline: none;
     font-size: 18px;
-    resize: none;
+    resize: vertical;
     overflow: auto;
     border: 1px solid #dbdbdb;
     text-align: justify;
