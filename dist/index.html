@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no, user-scalable=no">
+    <title>Транслитератор</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/adaptive.css">
+<script defer src="main.js"></script></head>
+<body>
+<header class="header">
+    <div class="container">
+        <img src="images/logo.png" alt="logo" class="logo">
+    </div>
+</header>
+<section class="main">
+    <div class="container">
+        <h1 class="main-title">Транслит онлайн-переводчик</h1>
+        <div class="main-content">
+            <div class="main-item">
+                <div class="main-item-actions">
+                    <div class="main-item-actions-title">ИСХОДНЫЙ ТЕКСТ</div>
+                    <div>
+                        <button class="btn" id="clear-btn">Очистить</button>
+                    </div>
+                </div>
+                <textarea name="main-src-text" class="main-item-text" id="src-text" spellcheck="false"></textarea>
+
+            </div>
+            <div class="main-item">
+                <div class="main-item-actions">
+                    <div class="main-item-actions-title">ТРАНСЛИТЕРАЦИЯ</div>
+                    <button class="btn" id="copy-btn">Скопировать</button>
+                </div>
+                <textarea name="main-trans-text" id="trans-text" class="main-item-text"
+                          spellcheck="false"></textarea>
+            </div>
+            <div class="main-rule">
+                <div class="main-rule-title">ПРАВИЛА ТРАНСЛИТЕРАЦИИ</div>
+                <div class="rule-items">
+                    <div class="rule-item">
+                        <div><span>А</span><span>–</span><span>A</span></div>
+                        <div><span>B</span> <span>–</span> <span>B</span></div>
+                        <div><span>В</span> <span>–</span><span>V</span></div>
+                        <div><span>Г</span> <span>–</span><span>G</span></div>
+                        <div><span>Д</span> <span>–</span><span>D</span></div>
+                        <div><span>Е</span> <span>–</span><span>E</span></div>
+                        <div><span>Ё</span> <span>–</span><span>E</span></div>
+                        <div><span>Ж</span> <span>–</span><span>ZH</span></div>
+                        <div><span>З</span> <span>–</span><span>Z</span></div>
+                        <div><span>И</span> <span>–</span><span>I</span></div>
+                        <div><span>Й</span> <span>–</span><span>Y</span></div>
+                        <div><span>К</span> <span>–</span><span>K</span></div>
+                        <div><span>Л</span> <span>–</span><span>L</span></div>
+                        <div><span>М</span> <span>–</span><span>M</span></div>
+                        <div><span>Н</span> <span>–</span><span>N</span></div>
+                        <div><span>О</span> <span>–</span><span>O</span></div>
+                        <div><span>П</span> <span>–</span><span>Р</span></div>
+
+                    </div>
+                    <div class="rule-item">
+
+                        <div><span>Р</span>
+                            <span>–</span>
+                            <span>R</span>
+                        </div>
+                        <div><span>С</span>
+                            <span>–</span>
+                            <span>S</span>
+                        </div>
+                        <div><span>Т</span>
+                            <span>–</span>
+                            <span>T</span>
+                        </div>
+                        <div><span>У</span>
+                            <span>–</span>
+                            <span>U</span>
+                        </div>
+                        <div><span>Ф</span>
+                            <span>–</span>
+                            <span>F</span>
+                        </div>
+                        <div><span>Х</span>
+                            <span>–</span>
+                            <span>H</span>
+                        </div>
+                        <div><span>Ц</span>
+                            <span>–</span>
+                            <span>C</span>
+                        </div>
+                        <div><span>Ч</span>
+                            <span>–</span>
+                            <span>CH</span>
+                        </div>
+                        <div><span>Ш</span>
+                            <span>–</span>
+                            <span>SH</span>
+                        </div>
+                        <div><span>Щ</span>
+                            <span>–</span>
+                            <span>SCH</span>
+                        </div>
+                        <div><span>Ь</span>
+                            <span>–</span>
+                            <span></span>
+                        </div>
+                        <div><span>Ы</span>
+                            <span>–</span>
+                            <span>Y</span>
+                        </div>
+                        <div><span>Ъ</span>
+                            <span>–</span>
+                            <span></span>
+                        </div>
+                        <div><span>Э</span>
+                            <span>–</span>
+                            <span>E</span>
+                        </div>
+                        <div><span>Ю</span>
+                            <span>–</span>
+                            <span>YU</span>
+                        </div>
+                        <div><span>Я</span>
+                            <span>–</span>
+                            <span>YA</span>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<script src="main.js"></script>
+</body>
+</html>
