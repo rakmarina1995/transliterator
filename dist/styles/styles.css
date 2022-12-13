@@ -27,6 +27,7 @@ body {
     justify-content: space-between;
     max-width: 100%;
     position: relative;
+    margin-bottom: 40px;
 }
 
 .main-item {
@@ -66,7 +67,7 @@ body {
 
 
 .main-item-actions-title {
-    font-size: 14px;
+    font-size: 15px;
     font-weight: bold;
 }
 
@@ -78,7 +79,7 @@ body {
     border-radius: 5px;
     cursor: pointer;
     border: 0;
-    font-size: 14px;
+    font-size: 15px;
     background: #6E6259;
     color: #FFFFFF;
     box-shadow: 0 1px 4px 0 rgb(0 0 0 / 37%);
@@ -103,14 +104,13 @@ body {
     margin-left: 10px;
     box-shadow: 0 1px 4px 0 rgb(0 0 0 / 37%);
     padding: 10px;
-    width:210px;
-
+    height: 645px;
 }
 
 .main-rule-title {
     box-sizing: border-box;
     height: 30px;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: bold;
     margin-bottom: 10px;
     text-align: center;
